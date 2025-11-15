@@ -105,7 +105,7 @@ def build_and_persist_chroma_db():
         embedding=embedding_model,
         persist_directory=PERSIST_DIRECTORY
     )
-    docsearch.persist() # Explicitly persist
+    docsearch.persist()
     print("Chroma DB created and persisted successfully!")
 
 if __name__ == "__main__":
