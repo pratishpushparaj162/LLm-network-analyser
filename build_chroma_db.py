@@ -10,7 +10,7 @@ from langchain.vectorstores import Chroma
 DATA_FILE = 'UNSW_NB15_attack_binary_bits.csv'
 FEATURES_FILE = 'NUSW-NB15_features1.csv'
 PERSIST_DIRECTORY = "./chroma_db"
-SAMPLE_SIZE = 10000 # Keep consistent with your app for testing
+SAMPLE_SIZE = 10000 
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 feature_descriptions_map = {
