@@ -13,7 +13,6 @@ PERSIST_DIRECTORY = "./chroma_db"
 SAMPLE_SIZE = 10000 # Keep consistent with your app for testing
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
-# --- Feature Descriptions (copied from your app.py) ---
 feature_descriptions_map = {
     'srcip': 'Source IP address', 'sport': 'Source port number', 'dstip': 'Destination IP address',
     'dsport': 'Destination port number', 'proto': 'Transaction protocol',
