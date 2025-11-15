@@ -100,7 +100,6 @@ def load_chain_from_prebuilt_db():
     PERSIST_DIRECTORY = "./chroma_db"
     EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
-    # Check if pre-built DB exists
     if not os.path.exists(PERSIST_DIRECTORY):
         st.error(f"Pre-built Chroma database not found at '{PERSIST_DIRECTORY}'.")
         st.error("Please run `python build_chroma_db.py` first to create the database.")
